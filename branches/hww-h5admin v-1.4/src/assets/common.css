@@ -1,0 +1,42 @@
+.el-table{
+    margin-bottom: 20px;
+}
+.tudan-flex{
+    display: flex;
+}
+
+.el-table tr:hover {
+    background: #f6faff;
+  }
+  /* home Page */
+  .create-wrap .table-box .el-input__inner {
+    padding: 0 6px;
+    position: relative;
+    right: 6px;
+  }
+  
+  
+  
+  .el-table td,
+  .el-table th {
+    padding: 4px 0 !important;
+  }
+  
+  .el-table th {
+    background: #dde3ef !important;
+  }
+  
+  .el-table--border td,
+  .el-table--border th,
+  .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+    border-right: none;
+  }
+  
+  
+  .el-table::before {
+    height: 0;
+  }
+  
+  .el-table thead {
+    color: #535762;
+  }
